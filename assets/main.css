@@ -793,9 +793,10 @@ header .auth button {
     font-family: Be Vietnam Pro;
     font-size: 16px;
 }
+
 .prices-text .taps :last-child {
-   color: #000;
-    background: var(--White-99, #FCFCFD);  
+    color: #000;
+    background: var(--White-99, #FCFCFD);
 }
 
 .our-prices .prices-cards {
@@ -1121,161 +1122,202 @@ footer .text {
 }
 
 @media only screen and (min-width: 501px) and (max-width: 1024px) {
+
     /* Styles for screens between 601px and 1024px wide */
     header {
         width: calc(100% -262px);
     }
+
     header .container {
         padding: 14px 52px 14px 92px;
         gap: 20px;
     }
+
     header .leftside {
         gap: 30px;
     }
+
     .leftside .logo {
         width: 44px;
         padding: 4px;
     }
+
     header .navbar {
         gap: 16px;
     }
+
     header .navbar ul {
         gap: 10px;
     }
+
     header .navbar a {
         font-size: 15px;
-    }  
+    }
+
     header .auth {
         gap: 22px;
     }
+
     header .auth a {
         font-size: 15px;
     }
+
     header .auth button {
         display: flex;
         padding: 10px 15px;
     }
+
     .hero {
         width: 765px;
         gap: 40px;
-    } 
+    }
+
     .hero .container {
         gap: 17px;
     }
+
     .hero .title {
         padding: 14px 20px 14px 10px;
         gap: 10px;
     }
+
     .title .title-icon {
         padding: 10px;
     }
+
     .title img {
         position: absolute;
         top: -30px;
         left: -30px;
     }
+
     .title span {
         font-size: 30px;
     }
+
     .title h1 {
         font-size: 30px;
-    }  
+    }
+
     .text h2 {
         font-size: 26px;
     }
+
     .text p {
         font-size: 15px;
     }
+
     .hero .buttons {
         gap: 9px;
     }
+
     .hero .buttons button {
         padding: 10px 16px;
         font-size: 15px;
     }
+
     .cards {
         width: calc(100% - 122px);
     }
+
     .cards .card-item {
         padding: 15px 15px;
         gap: 20px;
     }
+
     .video {
         width: calc(100% - 162px);
         padding: 30px;
     }
+
     .video img {
         width: 100%;
     }
+
     .benfits {
         width: calc(100% - 162px);
         gap: 60px;
-    }  
+    }
+
     .benfits .first-container {
         gap: 70px;
     }
+
     .benfits-title h2 {
         font-size: 27px;
     }
+
     .benfits-title span {
         font-size: 13px;
     }
+
     .first-container button {
         padding: 13px 15px;
         font-size: 13px;
     }
+
     .benfits .benfits-cards {
         gap: 18px;
     }
+
     .benfits-cards .row {
         gap: 16px;
     }
+
     .benfits-cards .benfits-card {
         padding: 20px 15px;
         gap: 16px;
-    }  
+    }
+
     .benfits-card h1 {
         font-size: 25px;
     }
+
     .benfits-card .cards-text {
         gap: 12px;
-    }  
+    }
+
     .cards-text h3 {
         font-size: 15px;
     }
+
     .cards-text span {
         font-size: 10px;
     }
+
     .our-courses {
         width: calc(100% - 162px);
     }
+
     .our-courses .courses-text {
         gap: 80px;
     }
+
     .courses-title h2 {
         font-size: 24px;
     }
-    
+
     .courses-title span {
         font-size: 12px;
     }
-    
+
     .courses-text button {
         padding: 13px 14px;
         font-size: 13px;
     }
-    
+
     .courses-cards {
         gap: 24px;
     }
-    
+
     .courses-cards .row {
         gap: 20px;
     }
-    
+
     .courses-cards .course-item {
         padding: 16px;
-    } 
+    }
+
     .course-item .course-details {
         gap: 23px;
     }
@@ -1283,22 +1325,138 @@ footer .text {
     .details p {
         font-size: 12px;
     }
-    
+
     .course-details .course-description {
         gap: 11px;
     }
-    
+
     .course-description h4 {
         font-size: 15px;
     }
-    
+
     .course-description span {
         font-size: 12px;
-       
+
     }
-    
+
     .course-description button {
         padding: 10px 20px;
         font-size: 12px;
     }
-  }
+
+    .testimonials {
+        width: calc(100% - 162px);
+        gap: 60px;
+    }
+
+    .testimonials .testimonials-text {
+        gap: 40px;
+    }
+
+    .testimonials-title h2 {
+        font-size: 25px;
+    }
+
+    .testimonials-title span {
+        font-size: 13px;
+    }
+
+    .testimonials-text button {
+        padding: 13px 15px;
+        font-size: 13px;
+    }
+
+    .testimonials .testimonials-cards {
+        gap: 20px;
+    }
+
+    .testimonials-cards .row {
+        gap: 20px;
+    }
+
+    .testo-card .test-text {
+        padding: 40px;
+    }
+
+    .test-text p {
+        font-size: 15px;
+    }
+
+    .testo-card .test-details {
+        padding: 25px 25px;
+    }
+
+    .test-details .name {
+        gap: 12px;
+    }
+
+    .name span {
+        font-size: 15px;
+    }
+
+    .test-details button {
+        padding: 14px 14px;
+        font-size: 13px;
+    }
+
+    .our-prices {
+        width: calc(100% - 162px);
+        gap: 60px;
+    }
+
+    .our-prices .prices-text {
+        gap: 40px;
+    }
+
+    .prices-title h2 {
+        font-size: 25px;
+    }
+
+    .prices-title span {
+        font-size: 13px;
+    }
+    .prices-text .taps button {
+        padding: 13px 15px;
+        font-size: 13px;
+    }
+    .our-prices .prices-cards {
+        padding: 70px;
+        gap: 20px;
+    }
+  
+    footer .container {
+        padding: 40px 10px 30px 10px;
+    }
+    
+    footer .row {
+        gap: 90px;
+    }
+    
+    footer .left-side {
+        gap: 20px;
+    }
+    
+    .left-side .logo {
+        padding: 1px;
+    }
+    
+    
+    .right-side .footer-item {
+        gap: 14px;
+    }
+    
+    .footer-item h3 {
+        font-size: 16px;
+    }
+    .footer-item a {
+        font-size: 12px;
+    }
+    
+    .footer-item button img {
+        width: 20px;
+        height: 20px;
+    }
+    footer .text {
+        font-size: 13px;
+    }
+}
